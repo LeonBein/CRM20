@@ -1,0 +1,5 @@
+repos/*
+checked_out/*
+*.git
+__pycache__/
+.ipynb_checkpoints/
