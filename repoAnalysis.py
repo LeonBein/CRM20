@@ -1,6 +1,7 @@
 import re
 import repoLibrarian
 import time
+import pandas
 
 stringRemoveRegex = re.compile(r"\".*?\"")
 commentRegex = re.compile(r"//.*?\n|/\*.*?\*/", re.S)
@@ -93,6 +94,7 @@ metricSuite = [loc, cloc, fileCount, numMethods, numLambdas, numCommentLines, nu
 def calculateMetrics(repoTuple, metricSuite=metricSuite):
     (user, project, repoId) = repoTuple
     repo = repoLibrarian.getRepo(user, project)
+    columns = ['sha', 'parent', 'timestamp', 'repoId'] + list(map(lambda fun: fun.__name__, metricSuite))
     results = []
     try:
         start = time.time()
@@ -115,10 +117,10 @@ def calculateMetrics(repoTuple, metricSuite=metricSuite):
                         metric = metricFunction(content=content, contentWithHeader=contentWithHeader, contentWithoutComments=contentWithoutComments)
                         resultTuple[metricFunction.__name__] = resultTuple[metricFunction.__name__] + metric
             results.append(resultTuple)
-
+        df = pandas.DataFrame(results, columns=columns)
         end = time.time()
         print('Time used for '+str(repoTuple)+': '+str(end - start))
-        return results
+        return df
     except Exception as e:
         print('Failed to analyze '+str(repoTuple)+': '+str(e))
         return []
