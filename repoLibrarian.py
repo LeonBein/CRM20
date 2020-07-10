@@ -2,6 +2,7 @@ from git import Repo
 import os
 import shutil
 from git.db import GitDB
+from git.db import GitCmdObjectDB
 from git import GitCommandError
 
 reposFolder = '/mnt/brick/crm20/repos/'
@@ -72,4 +73,4 @@ def downloadRepo(user, project, override=False):
 def getRepo(user, project):
     if not hasRepo(user, project):
         downloadRepo(user, project)
-    return Repo.init(pathFor(user, project), bare=True, odbt=GitDB)
+    return Repo.init(pathFor(user, project), bare=True, odbt=GitCmdObjectDB)
