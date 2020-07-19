@@ -74,3 +74,16 @@ def getRepo(user, project):
     if not hasRepo(user, project):
         downloadRepo(user, project)
     return Repo.init(pathFor(user, project), bare=True, odbt=GitCmdObjectDB)
+
+
+def isJavaFile(gitObject):
+    return gitObject.type == 'blob' and gitObject.name.endswith('.java')
+
+def isJavaRepo(user, project):
+    try:
+        repo = getRepo(user, project)
+        commit = list(repo.iter_commits())[0]
+        return any(isJavaFile(obj) for obj in commit.tree.traverse())
+    except Exception as e:
+        print('Failed to check '+str((user, project))+': '+str(e))
+        return False
