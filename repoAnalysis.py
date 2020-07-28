@@ -3,6 +3,9 @@ import repoLibrarian
 import time
 import pandas
 
+from git.util import hex_to_bin
+from git import Commit
+
 stringRemoveRegex = re.compile(r"\".*?\"")
 commentRegex = re.compile(r"//.*?\n|/\*.*?\*/", re.S)
 
@@ -17,6 +20,7 @@ def removeHeader(contentWithHeader):
 def occurencesOf(regex, content):
     return len(regex.findall(content))
 
+#Old Code
 def timedMetricPerFileForRepo(repoTuple, metricFunction, fileCountConsumer = safeDivision):
     (user, project) = repoTuple
     repo = getRepo(user, project)
@@ -52,34 +56,34 @@ def loc(contentWithHeader, **kwargs):
 def cloc(content, **kwargs):
     return len(content.split('\n'))
 
-def fileCount(contentWithHeader, **kwargs):
-    return 1
+def file_count(contentWithHeader, **kwargs):
+    return 1 if contentWithHeader else 0
 
 methodRegex = re.compile(r"(public|protected|private|static|\s) +[\w\<\>\[\]]+\s+(\w+) *\([^\)]*\) *(\{?|[^;])")
-def numMethods(content, **kwargs):
-    numMethods = occurencesOf(methodRegex, content)
-    return numMethods
+def num_methods(content, **kwargs):
+    num_methods = occurencesOf(methodRegex, content)
+    return num_methods
 
 lambdaRegex = re.compile(r"->|::")
-def numLambdas(content, **kwargs):
-    numLambdas = occurencesOf(lambdaRegex, content) 
-    return numLambdas
+def num_lambdas(content, **kwargs):
+    num_lambdas = occurencesOf(lambdaRegex, content) 
+    return num_lambdas
     
-def numCommentLines(content, **kwargs):
+def num_comment_lines(content, **kwargs):
     matches = commentRegex.findall(stringRemoveRegex.sub("\"...\"", content))
     # Lines of comment; trailing newlines indicate that comment ends with the newline and are therefore stripped
     commentLines = sum(map(lambda x: len(x.rstrip().split("\n")), matches))
     return commentLines
 
-def numReflection(contentWithoutComments, **kwargs):
+def num_reflection(contentWithoutComments, **kwargs):
     return (contentWithoutComments.count('instanceof') + contentWithoutComments.count('.class.') + contentWithoutComments.count('Class<'))
 
 snakeRegex = re.compile(r"\w_\w")
-def numSnakes(contentWithoutComments, **kwargs):
+def num_snakes(contentWithoutComments, **kwargs):
     return len(snakeRegex.findall(contentWithoutComments))
 
 # Can be divided by loc to get average indent
-def totalIndent(content, **kwargs):
+def total_indent(content, **kwargs):
     indentOfLine = lambda line: len(line[:(len(line)-len(line.lstrip()))].replace('\t', '    ')) / 4 
     indents = list(map(indentOfLine, content.split('\n')))
     indentSum = sum(indents)
@@ -89,34 +93,114 @@ def identity(x,*y):
     return x
 
 
-metricSuite = [loc, cloc, fileCount, numMethods, numLambdas, numCommentLines, numReflection, numSnakes, totalIndent]
-    
+metricSuite = [loc, cloc, file_count, num_methods, num_lambdas, num_comment_lines, num_reflection, num_snakes, total_indent]
+   
+# Code for Iteration #1
 def calculateMetrics(repoTuple, metricSuite=metricSuite):
     (user, project, repoId) = repoTuple
     repo = repoLibrarian.getRepo(user, project)
-    columns = ['sha', 'parent', 'timestamp', 'repoId'] + list(map(lambda fun: fun.__name__, metricSuite))
+    columns = ['sha', 'parent', 'timestamp', 'repo_id', 'additions', 'deletions'] + list(map(lambda fun: fun.__name__, metricSuite))
     results = []
     try:
         start = time.time()
-        for commit in repo.iter_commits():
-            resultTuple = {
-                'sha' : commit.hexsha,
-                'parent' : commit.parents[-1].hexsha if len(commit.parents) == 1 else None,
-                'timestamp' : commit.committed_date,
-                'repoId' : repoId
-            }
+        for commit in repo.iter_commits('--all'):
+            results.append(metricsForCommit(commit, metricSuite, repoId))
+        df = pandas.DataFrame(results, columns=columns)
+        end = time.time()
+        print('Time used for '+str(repoTuple)+': '+str(end - start))
+        return df
+    except Exception as e:
+        print('Failed to analyze '+str(repoTuple)+': '+str(e))
+        return []
+    
+def metricsForCommit(commit, metricSuite, repoId):
+    resultTuple = {
+        'sha' : commit.hexsha,
+        'parent' : commit.parents[-1].hexsha if len(commit.parents) == 1 else None,
+        'timestamp' : commit.committed_date,
+        'repo_id' : repoId,
+        'additions': 0,
+        'deletions' : 0
+    }
+    for metricFunction in metricSuite:
+        resultTuple[metricFunction.__name__] = 0
+    for obj in commit.tree.traverse():
+        if obj.type == 'blob' and obj.name.endswith('.java'):
+            contentWithHeader = obj.data_stream.read().decode("CP437")#.decode("utf-8")
+            content = removeHeader(contentWithHeader)
+            contentWithoutStrings = stringRemoveRegex.sub("\"...\"", content)
+            contentWithoutComments = commentRegex.sub("/*...*/", contentWithoutStrings)
             for metricFunction in metricSuite:
-                resultTuple[metricFunction.__name__] = 0
-            for obj in commit.tree.traverse():
-                if obj.type == 'blob' and obj.name.endswith('.java'):
-                    contentWithHeader = obj.data_stream.read().decode("CP437")#.decode("utf-8")
-                    content = removeHeader(contentWithHeader)
-                    contentWithoutStrings = stringRemoveRegex.sub("\"...\"", content)
-                    contentWithoutComments = commentRegex.sub("/*...*/", contentWithoutStrings)
-                    for metricFunction in metricSuite:
-                        metric = metricFunction(content=content, contentWithHeader=contentWithHeader, contentWithoutComments=contentWithoutComments)
-                        resultTuple[metricFunction.__name__] = resultTuple[metricFunction.__name__] + metric
-            results.append(resultTuple)
+                metric = metricFunction(content=content, contentWithHeader=contentWithHeader, contentWithoutComments=contentWithoutComments)
+                resultTuple[metricFunction.__name__] = resultTuple[metricFunction.__name__] + metric
+    return resultTuple
+    
+
+# Code for iteration #2 
+def safeToInt(string):
+    return 0 if string == '-' else int(string)
+
+def block_to_stats(block):
+    lines = block.split('\n')
+    header = lines[0]
+    lines = filter(lambda line: line.endswith('.java'), lines)
+    changed_files = list(map(lambda line: line.split('\t'), lines))
+    additions = sum(map(lambda file: safeToInt(file[0]), changed_files))
+    deletions = sum(map(lambda file: safeToInt(file[1]), changed_files))
+    return (header, (changed_files, additions, deletions))
+
+def file_contents(tree, path):
+    try: 
+        obj = tree / path
+        return obj.data_stream.read().decode("CP437")
+    except KeyError:
+        return ''
+    
+def addMetricsOfTo(metricSuite, contentWithHeader, resultTuple, factor=1):
+    content = removeHeader(contentWithHeader)
+    contentWithoutStrings = stringRemoveRegex.sub("\"...\"", content)
+    contentWithoutComments = commentRegex.sub("/*...*/", contentWithoutStrings)
+    for metricFunction in metricSuite:
+        metric = metricFunction(content=content, contentWithHeader=contentWithHeader, contentWithoutComments=contentWithoutComments)
+        resultTuple[metricFunction.__name__] = resultTuple[metricFunction.__name__] + metric * factor
+
+def deltaMetricsForCommit(commit, metricSuite, repoId, change):
+    changed_files, additions, deletions = change
+    
+    resultTuple = {
+        'sha' : commit.hexsha,
+        'parent' : commit.parents[-1].hexsha if len(commit.parents) == 1 else None,
+        'timestamp' : commit.committed_date,
+        'repo_id' : repoId,
+        'additions' : additions,
+        'deletions' : deletions
+    }    
+    for metricFunction in metricSuite:
+        resultTuple[metricFunction.__name__] = 0
+        
+    for added, removed, file in changed_files:
+        addMetricsOfTo(metricSuite, file_contents(commit.tree,            file), resultTuple    )
+        addMetricsOfTo(metricSuite, file_contents(commit.parents[0].tree, file), resultTuple, -1)
+            
+    return resultTuple
+    
+
+def calculateDeltaMetrics(repoTuple, metricSuite=metricSuite):
+    (user, project, repoId) = repoTuple
+    repo = repoLibrarian.getRepo(user, project)
+    columns = ['sha', 'parent', 'timestamp', 'repo_id', 'additions', 'deletions'] + list(map(lambda fun: fun.__name__, metricSuite))
+    results = []
+    try:
+        start = time.time()
+        log = repo.git.log('--numstat', '--format=//%H', '--all')
+        commits = log.split('//')[1:]#First 'part' is empty string before the first commit
+        changes = map(block_to_stats, commits)
+
+        for hexsha, change in changes:
+            commit = Commit(repo, hex_to_bin(hexsha))
+            if len(commit.parents) == 1:
+                results.append(deltaMetricsForCommit(commit, metricSuite, repoId, change))
+                
         df = pandas.DataFrame(results, columns=columns)
         end = time.time()
         print('Time used for '+str(repoTuple)+': '+str(end - start))

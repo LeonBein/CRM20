@@ -1,3 +1,117 @@
+//a49e5be01918f8012875befe18821676dc3ce98d
+
+1	1	samples/1_SimpleGlobal.xml
+22	0	samples/1_SimpleSimulation_multi.xml
+31	17	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/RembrandtResourceQueuesUpdatedPlugin.java
+19	9	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//54ac50b59b456cdc156b4aa18c7be17db1511950
+
+47	3	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/RembrandtResourceQueuesUpdatedPlugin.java
+//0c42536c5657adf2e910833cc72fea577d8ee1eb
+
+21	12	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//81171bf7a031077d010518344a28b0d89c6f1e90
+
+1	1	src/main/java/de/hpi/bpt/scylla/simulation/QueueManager.java
+//2ebbe886da329768c7014a8907c38ed065ac0e17
+
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/FreeResourceAtTerminateEvent.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+//e25e850ee6c421e124eccffb342309fdd840d88f
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/FreeResourceAtTerminateEvent.java
+7	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+12	10	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//0cf6f18188e86e365b8964fd12339f119de04a1e
+
+7	2	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/{ResourceQueuesUpdatedPlugin.java => RembrandtResourceQueuesUpdatedPlugin.java}
+3	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+1	1	src/main/java/de/hpi/bpt/scylla/simulation/ScyllaEventQueue.java
+//e28c3ae2a8586707ba10de2b2cb7bc6b08878ae8
+
+27	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/ResourceQueuesUpdatedPlugin.java
+8	2	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//64228cdd34b26f31ee90940e2f1f03fde5388be6
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+14	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//3b1723c5e94e67f8516363834f7413e75019b1bb
+
+1	1	samples/1_SimpleSimulation.xml
+//2a75ccc3e6c4580777e60e2aa2104a5ff088b868
+
+0	3	plugins/PluginTest-0.0.1-SNAPSHOT.jar
+9	0	samples/1_SimpleGlobal.xml
+22	0	samples/1_SimpleSimulation.xml
+38	0	samples/1_Simplediagram.bpmn
+//e50177e7c0dcaae94139fb9bf2f3cfa0b2653ca9
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+5	0	src/main/java/de/hpi/bpt/scylla/simulation/QueueManager.java
+0	4	src/main/java/de/hpi/bpt/scylla/simulation/SimulationModel.java
+//462bb7e1fb3525a1710b33b559900652a2f0bc9f
+
+2	1	.gitignore
+//6fab7325f07c088cbc36c62b5c5145c966ce278d
+
+16	8	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+//c4d417f121314cb81af273fa488b57094bd3bc20
+
+5	3	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+2	1	src/main/java/de/hpi/bpt/scylla/simulation/QueueManager.java
+1	1	src/main/java/de/hpi/bpt/scylla/simulation/ResourceQueue.java
+//42b7d1d3b207222edb1c42c53097356895743d6f
+
+5	0	src/main/java/de/hpi/bpt/scylla/simulation/SimulationModel.java
+//f2366c3d5ab18a8954d054e268ef0c5c4e22700d
+
+11	6	src/main/java/de/hpi/bpt/scylla/simulation/QueueManager.java
+//15604451b19f3f6e41daeb6bbe1ef01fca876060
+
+17	7	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//b30c16b639d3d99d5a83c847fcba1b7558687ce9
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+//abe5bb401faa3daba534b4b6cd8ae7814baa3f3b
+
+19	4	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//f50f643dc581362e4c8ca427c411559d8d871b90
+
+21	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/FreeResourceAtTerminateEvent.java
+//02e4fd4541454842c42dd98eee1cc0a7b5f75d0e
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+5	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+//ba84980b37fab4842db435e09a08edb4506d275e
+
+21	13	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//dadf4e681b4c176c4b862339f28a2ae9a0b2bd87
+
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+30	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//dc68984cf7be1eeb93d4b4439282c37c088bac66
+
+1	43	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+52	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/rembrandtConnectorUtils.java
+//913f9d9a3052d26b67dd95a2439440d4e33fc56d
+
+124	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/DelayEndEventByResource.java
+37	0	src/main/java/de/hpi/bpt/scylla/plugin/rembrandtConnector/resourceAssignmentPlugin.java
+//a994ba67377c7cc4aee76ed640b5354a4632d12a
+
+2	1	src/main/resources/META-INF/plugins/plugins_list
+//f2a0517d57ed0124003fad6820fbf53b1f231249
+
+-	-	plugins/PluginTest-0.0.1-SNAPSHOT.jar
+//be2c69de21636c9f534d5c751863d008aae73d3b
+
+7	0	pom.xml
+//68e136a2b053b5cfdda69c9061fbe8ce0f40b798
+
+-	-	lib/Spex.jar
 //ee00a205a2225ad73b0264cf7ba64be5c7044d0b
 
 3	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchResourceQueueUpdatedPlugin.java
@@ -57,6 +171,334 @@
 
 7	4	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
 0	1	src/main/java/de/hpi/bpt/scylla/parser/SimulationConfigurationParser.java
+//880b484c3dc6f15eaeb8b468cd0f429fb30762f9
+
+3	2	src/main/java/de/hpi/bpt/scylla/SimulationManager.java
+42	0	src/main/java/de/hpi/bpt/scylla/model/configuration/SimulationConfiguration.java
+52	39	src/main/java/de/hpi/bpt/scylla/parser/SimulationConfigurationParser.java
+//8a04bca77f19131887a539b0b9fc2aced98003fd
+
+195	0	samples/newConfiguration/newConfiguration_example.bpmn
+36	0	samples/newConfiguration/p0_globalconf.xml
+20	0	samples/newConfiguration/p2_normal_sim.xml
+//b48918df0b2cc93df86c559f78ac9fde26b3a9d5
+
+3	3	pom.xml
+//2afa76d2717907a457ce528bca138daf4b432937
+
+22	24	app/app/panelExtension/ScyllaGeneralProperties.js
+19	1	app/app/panelExtension/scyllaPropertiesDescriptor.json
+//9054911e9189a1374f9f92d4d6c42f5ff71049cf
+
+8	5	app/app/panelExtension/ScyllaGeneralProperties.js
+4	4	app/app/panelExtension/scyllaPropertiesDescriptor.json
+//410b3a09d08bb0f9deacc5eac0d6e3a22e4037b1
+
+3	1	app/app/panelExtension/ScyllaGeneralProperties.js
+//d285ea8e9af23517d699070b0402803408a26ec9
+
+3	2	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/JSBridge.java
+1	1	src/playground/resources/javaBridge.js
+//fda271274670dc61763c3c2ac538ea58bb3e0e89
+
+47	35	app/app/panelExtension/ScyllaGeneralProperties.js
+//169d3637ab441b63809f07edcafc5f2c47fc9d26
+
+2	1	app/app/app.js
+82	49	app/app/panelExtension/ScyllaGeneralProperties.js
+1	1	app/app/panelExtension/scyllaPropertiesDescriptor.json
+//a074b34ac825a3a5e55a3ecf0aba1f314a5a481e
+
+72	15	app/app/panelExtension/ScyllaGeneralProperties.js
+//00f48a69e5f178fab9b748ece2e30361c3a91855
+
+109	98	app/app/panelExtension/ScyllaGeneralProperties.js
+//ca8b435809a350133c18c8d403c72e2e56cb492a
+
+3	0	src/playground/resources/javaBridge.js
+//c145886cf53d8665e79c06a2bdecbd640b6fba19
+
+10	0	app/styles/app.less
+//5edb6fa1a1e99233a56025076ee9ac7b3af2646c
+
+127	25	app/app/panelExtension/ScyllaGeneralProperties.js
+1	1	src/main/java/de/hpi/bpt/scylla/creation/SimulationConfiguration/Distribution.java
+//e4f1da172c1045c1415c5874baecd52019d0c825
+
+5	0	app/app/app.js
+80	21	app/app/panelExtension/ScyllaGeneralProperties.js
+1	0	src/playground/resources/index.html
+//63240525e10ee30f831b9cb5a4010c6dee71a843
+
+58	6	app/app/panelExtension/ScyllaGeneralProperties.js
+//efa061ae74036063119fa7a1e9a5fa480260ed5d
+
+1	1	src/playground/resources/javaBridge.js
+//412c47989e9efe0b916955af943d00eb0e2a5aa8
+
+3	2	app/app/app.js
+39	2	app/app/panelExtension/ScyllaGeneralProperties.js
+59	4	app/app/panelExtension/scyllaPropertiesDescriptor.json
+1	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+//98626f031f76ccee28a4d6400da43fcc9f210492
+
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/JSBridge.java
+//127128513d10d1e1cf3a649d8d27846913434dc4
+
+4	0	app/app/app.js
+92	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/JSBridge.java
+13	82	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+2	1	src/playground/resources/index.html
+4	1	src/playground/resources/javaBridge.js
+//ef781d29c72074fda3cf73aec98ac5e25d088d61
+
+6	0	app/app/app.js
+22	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+2	1	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/ModelerPane.java
+//ca74aca2c18580a710f48556ba865866b670f617
+
+101	0	app/app/panelExtension/ScyllaGeneralProperties.js
+7	5	app/app/panelExtension/ScyllaPropertiesProvider.js
+7	4	src/playground/resources/index.html
+//ff714954e8e601de5febeaf4a19ba634f6892021
+
+12	0	app/app/app.js
+7	2	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+1	2	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+5	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/ModelerPane.java
+//29ce57466c3fb58ccf817e75e8726dc66b3b2253
+
+1	4	pom.xml
+//fceddbf4b0b20a30854506e0585665aa8fa0e28d
+
+2	2	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+1	0	src/test/java/de/hpi/bpt/scylla/playground/PandomiumTests.java
+//fbbfcd45c22d6bc2a0a641d87701a6e9d14f7b52
+
+3	1	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+//b33861a7295d63d99881f8bc8b1127bb9b98d9ae
+
+4	2	src/test/java/de/hpi/bpt/scylla/ArgumentTests.java
+//8d407f8a26ba105ba4cfadbd04c716c02cc96880
+
+1	1	.travis.yml
+//716199493ed6154d87be256f04c34e753957dd40
+
+1	0	pom.xml
+//4b7cea1b9ce78100d48f7822985dc7e673ba28d1
+
+2	9	src/test/java/de/hpi/bpt/scylla/playground/PandomiumTests.java
+//8828f812757caff72a7c571408c39709b96c545f
+
+3	3	pom.xml
+//c99123ce8fc377b6d769c10043478180900915ec
+
+6	1	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+12	1	src/test/java/de/hpi/bpt/scylla/playground/PandomiumTests.java
+//f2a651c079d485a69024796f7bb169580033a723
+
+25	22	.travis.yml
+//b833e62290bf3b4506df2898cdb46a8016b2cfe9
+
+22	26	.travis.yml
+//680018b15f9ad5893d039548085e63fc6558ef98
+
+26	22	.travis.yml
+//e314e274d16cfdbf17df1bc025a9ad0e4d99085c
+
+7	8	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+//28d092d9de0b9bd953db8f42f98d8bec257b7a75
+
+3	2	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/ModelerPane.java
+13	0	src/playground/resources/emptyDiagram.bpmn
+//6621cc1601c178ff6aa7e01dcd7d9bcd75912920
+
+1	1	app/app/app.js
+2	2	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+261	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/Modeler.java
+74	0	src/main/java/de/hpi/bpt/scylla/GUI/ModelerPane/ModelerPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+34	9	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+//46d67ec76319052a70ba0793455639803b80992c
+
+17	11	app/app/app.js
+37	0	app/app/panelExtension/BatchPluginProperties.js
+1	1	app/app/panelExtension/XyzPluginProperties.js
+6	1	app/app/panelExtension/scyllaPropertiesDescriptor.json
+11	30	app/package-lock.json
+6	1	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+2	1	src/playground/resources/index.html
+7	3	src/playground/resources/javaBridge.js
+//31fb4d361e113257f4c4f985531b6bfdd3a62b6f
+
+12	0	src/main/java/de/hpi/bpt/scylla/playground/ExposeToJS.java
+130	26	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+4	0	src/playground/resources/index.html
+21	0	src/playground/resources/javaBridge.js
+//44ba46fd39631516dddd1a28d7316910ba00a5fd
+
+0	0	{src/playground/resources => app}/.babelrc
+1	0	app/.gitignore
+8	6	{src/playground/resources => app}/Gruntfile.js
+0	0	{src/playground/resources => app}/app/app.js
+11	1	{src/playground/resources => app}/app/panelExtension/ScyllaPropertiesProvider.js
+0	0	{src/playground/resources => app}/app/panelExtension/XyzPluginProperties.js
+0	0	{src/playground/resources => app}/app/panelExtension/index.js
+0	0	{src/playground/resources => app}/app/panelExtension/scyllaPropertiesDescriptor.json
+30	11	{src/playground/resources => app}/package-lock.json
+0	0	{src/playground/resources => app}/package.json
+0	0	{src/playground/resources => app}/styles/app.less
+0	1	src/playground/resources/.gitignore
+//763d5e63f43c8ab358b79bf37da045d7474c1fd2
+
+6	0	pom.xml
+0	3	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+//b24165a3d2e6800ab2c38ca0556d214755b1ae7b
+
+4	0	lib/org/panda-lang/panda-framework/indev-0.8.87/_remote.repositories
+7	0	lib/org/panda-lang/panda-framework/indev-0.8.87/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.jar
+5	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.jar.lastUpdated
+1	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.jar.sha1
+80	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.pom
+5	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.pom.lastUpdated
+1	0	lib/org/panda-lang/panda-framework/indev-0.8.87/panda-framework-indev-0.8.87.pom.sha1
+3	0	lib/org/panda-lang/panda-parent/indev-0.8.87/_remote.repositories
+204	0	lib/org/panda-lang/panda-parent/indev-0.8.87/panda-parent-indev-0.8.87.pom
+5	0	lib/org/panda-lang/panda-parent/indev-0.8.87/panda-parent-indev-0.8.87.pom.lastUpdated
+1	0	lib/org/panda-lang/panda-parent/indev-0.8.87/panda-parent-indev-0.8.87.pom.sha1
+4	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/_remote.repositories
+7	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.jar
+5	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.jar.lastUpdated
+1	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.jar.sha1
+90	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.pom
+5	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.pom.lastUpdated
+1	0	lib/org/panda-lang/panda-utilities/indev-0.8.87/panda-utilities-indev-0.8.87.pom.sha1
+4	0	lib/org/panda-lang/panda/indev-0.8.87/_remote.repositories
+7	0	lib/org/panda-lang/panda/indev-0.8.87/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.jar
+5	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.jar.lastUpdated
+1	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.jar.sha1
+91	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.pom
+5	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.pom.lastUpdated
+1	0	lib/org/panda-lang/panda/indev-0.8.87/panda-indev-0.8.87.pom.sha1
+4	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/_remote.repositories
+7	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.jar
+5	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.jar.lastUpdated
+1	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.jar.sha1
+9	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.pom
+5	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.pom.lastUpdated
+1	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-linux64/67.0.3/pandomium-natives-linux64-67.0.3.pom.sha1
+4	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/_remote.repositories
+7	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.jar
+5	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.jar.lastUpdated
+1	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.jar.sha1
+9	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.pom
+5	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.pom.lastUpdated
+1	0	lib/org/panda-lang/pandomium-natives/pandomium-natives-win64/67.0/pandomium-natives-win64-67.0.pom.sha1
+3	0	lib/org/panda-lang/pandomium-parent/67.0.6/_remote.repositories
+128	0	lib/org/panda-lang/pandomium-parent/67.0.6/pandomium-parent-67.0.6.pom
+5	0	lib/org/panda-lang/pandomium-parent/67.0.6/pandomium-parent-67.0.6.pom.lastUpdated
+1	0	lib/org/panda-lang/pandomium-parent/67.0.6/pandomium-parent-67.0.6.pom.sha1
+4	0	lib/org/panda-lang/pandomium/67.0.6/_remote.repositories
+7	0	lib/org/panda-lang/pandomium/67.0.6/m2e-lastUpdated.properties
+8	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6-javadoc.jar.lastUpdated
+8	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6-sources.jar.lastUpdated
+-	-	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.jar
+5	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.jar.lastUpdated
+1	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.jar.sha1
+100	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.pom
+5	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.pom.lastUpdated
+1	0	lib/org/panda-lang/pandomium/67.0.6/pandomium-67.0.6.pom.sha1
+//64296345fcc1dd7ef9a048a74ef6b89549508cdf
+
+3	4	.classpath
+3	1	.gitignore
+13	3	pom.xml
+2	1	src/main/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+71	0	src/main/java/de/hpi/bpt/scylla/playground/PandomiumTest.java
+12	0	src/test/java/de/hpi/bpt/scylla/playground/PandomiumTests.java
+//9b4ebc3af22944c3a137b1c404f33b84e4a914b9
+
+1	1	pom.xml
+//a979fde5cba59453ce8aefcd856f71f2cd9bacda
+
+-	-	lib/desmoj/desmoj/{2.5.1/desmoj-2.5.1.jar => 2.5.1-adapted/desmoj-2.5.1-adapted.jar}
+1	1	lib/desmoj/desmoj/{2.5.1/desmoj-2.5.1.pom => 2.5.1-adapted/desmoj-2.5.1-adapted.pom}
+3	3	lib/desmoj/desmoj/maven-metadata-local.xml
+3	0	lib/installdependencies.bat
+-	-	lib/org/deckfour/openxes-xstream/20160212/openxes-xstream-20160212.jar
+0	9	lib/org/deckfour/openxes-xstream/20160212/openxes-xstream-20160212.pom
+1	1	lib/org/deckfour/openxes/maven-metadata-local.xml
+4	4	lib/org/deckfour/{openxes-xstream => ospex}/maven-metadata-local.xml
+1	20	pom.xml
+//3c5a817a13f2f6ef09b4f2014e35712d671b04f0
+
+3	3	.classpath
+-	-	lib/desmoj-2.5.1-adapted.jar
+0	12	lib/org/deckfour/ospex/maven-metadata-local.xml
+56	15	pom.xml
+2	1	src/{playground => main}/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+4	5	src/playground/resources/index.html
+//2835e3cb5e100450cf2c322ab09c2aae1e48f292
+
+3	1	.classpath
+//e8fd193106428d502d8f016610387e22d8d78567
+
+1	0	src/playground/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+6	6	src/playground/resources/app/app.js
+2	1	src/playground/resources/index.html
+//621bbd9668697071972b2353050886cfdd0eddee
+
+1	1	src/playground/resources/styles/app.less
+//546c1a94ab1c8c3ea19a36cd979275bae9e0433f
+
+8	0	src/playground/resources/Gruntfile.js
+//16df05fa7ef501f5c100394860f4a7f30f30dbeb
+
+27	6	src/playground/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+//08f869646c186057bdcc464c206a0e0dfdd89cd0
+
+11	2	src/playground/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+3	0	src/playground/resources/.babelrc
+3	0	src/playground/resources/.gitignore
+86	0	src/playground/resources/Gruntfile.js
+98	0	src/playground/resources/app/app.js
+93	0	src/playground/resources/app/panelExtension/ScyllaPropertiesProvider.js
+18	0	src/playground/resources/app/panelExtension/XyzPluginProperties.js
+6	0	src/playground/resources/app/panelExtension/index.js
+24	0	src/playground/resources/app/panelExtension/scyllaPropertiesDescriptor.json
+0	148	src/playground/resources/example.bpmn
+14	77	src/playground/resources/index.html
+5897	0	src/playground/resources/package-lock.json
+43	0	src/playground/resources/package.json
+135	0	src/playground/resources/styles/app.less
+//f4da7031f4ea210326d05e964aeb86367340136a
+
+5	0	src/playground/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+33	1	src/playground/resources/index.html
+//238091517e0c910cbbfa3536ae6769d4d81f8e82
+
+11	6	.classpath
+17	9	pom.xml
+87	0	src/playground/java/de/hpi/bpt/scylla/playground/BpmnIOTests.java
+148	0	src/playground/resources/example.bpmn
+97	0	src/playground/resources/index.html
 //7d7ec0cfc25e31286ba3a4f7778461052885d0bb
 
 0	9	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
@@ -690,11 +1132,50 @@
 5	0	src/test/resources/BatchPlugin/BatchTestGlobalConfiguration.xml
 30	0	src/test/resources/BatchPlugin/BatchTestSimulationConfiguration.xml
 122	0	src/test/resources/BatchPlugin/SimpleTaskbasedModel.bpmn
+//51e147d36af84a90ccba75a27b1991aae1a7ece6
+
+0	5	.settings/org.eclipse.core.resources.prefs
+0	32	.vscode/launch.json
+0	3	.vscode/settings.json
+0	3	plugins/InterfaceTesting.jar
+0	3	plugins/StatsLogger.jar
+//60d4a08f7d711c0c21f626c746e098b56c7d5d95
+
+1	0	.classpath
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/ScyllaGUI.java
 //f8307838faefc61e4d6dfb356191b5557bbf556f
 
 -	-	plugins/PluginTest-0.0.1-SNAPSHOT.jar
 97	0	src/main/java/de/hpi/bpt/scylla/plugin_loader/ExternalJarLoader.java
 73	62	src/main/java/de/hpi/bpt/scylla/plugin_loader/PluginLoader.java
+//f94db9e349ba46c8ca87b5b85d310e3c5317b922
+
+-	-	webswing-server.war
+//2b65e0cfc7d6a57a9fdbad070fc73bf98bd599b9
+
+-	-	lib/plugin.jar
+3	3	pom.xml
+//e7fdd226bbf46ccf6cb3643279cdc2809fd25953
+
+7	0	pom.xml
+//c20f517430f5c4f5de291c625e3df05ebc150b7c
+
+-	-	lib/OpenXES-20160212.jar
+-	-	lib/OpenXES-XStream-20160212.jar
+-	-	lib/Spex.jar
+-	-	lib/desmoj-2.5.1c-bin.jar
+-	-	lib/desmoj/desmoj/2.5.1/desmoj-2.5.1.jar
+9	0	lib/desmoj/desmoj/2.5.1/desmoj-2.5.1.pom
+12	0	lib/desmoj/desmoj/maven-metadata-local.xml
+-	-	lib/org/deckfour/openxes-xstream/20160212/openxes-xstream-20160212.jar
+9	0	lib/org/deckfour/openxes-xstream/20160212/openxes-xstream-20160212.pom
+12	0	lib/org/deckfour/openxes-xstream/maven-metadata-local.xml
+-	-	lib/org/deckfour/openxes/20160212/openxes-20160212.jar
+9	0	lib/org/deckfour/openxes/20160212/openxes-20160212.pom
+12	0	lib/org/deckfour/openxes/maven-metadata-local.xml
+-	-	lib/org/deckfour/ospex/1.0/ospex-1.0.jar
+9	0	lib/org/deckfour/ospex/1.0/ospex-1.0.pom
+12	0	lib/org/deckfour/ospex/maven-metadata-local.xml
 //b5563bd820eb6dbd2d9a54d1e24968fb36d872e7
 
 1	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCSVLogger.java
@@ -704,6 +1185,20 @@
 //0b427b59196bc14966ffd34e1a1458f932de739f
 
 3	3	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
+//0548edf436f6bde87c97847e3f5ba03f5cd7411f
+
+1	1	Dockerfile
+0	1	docker_entrypoint.sh
+1	0	projects/Scylla.jar
+1	0	projects/libs
+85	0	webswing.config
+//3b5cb8c2f38cf5a4ac5fece0be5d837276ff224e
+
+127	119	pom.xml
+//04327d20a3ed1fbd3b9a652613e774850ba97740
+
+13	0	Dockerfile
+8	0	docker_entrypoint.sh
 //2e5cadd7f3ecb489ef82eda891892b9b67e80a73
 
 119	118	pom.xml
@@ -723,6 +1218,467 @@
 9	0	lib/org/deckfour/ospex/1.0/ospex-1.0.pom
 12	0	lib/org/deckfour/ospex/maven-metadata-local.xml
 9	2	pom.xml
+//7b0a18cc4ce46209c7e0d69b5145497ce1992dc4
+//07061544c824e26032dba81ef53c40592f26f416
+
+49	39	.gitignore
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/WebSwing/WebSwingUtils.java
+2	0	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//8fc335d2ceb9a55c9162280e28e9435d58a68e76
+
+38	24	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+15	4	src/main/java/de/hpi/bpt/scylla/GUI/ScyllaGUI.java
+15	14	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+45	32	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+79	0	src/main/java/de/hpi/bpt/scylla/GUI/WebSwing/WebSwingUtils.java
+29	0	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/FileDialog.java
+200	0	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/FileWriter.java
+18	2	src/main/java/de/hpi/bpt/scylla/GUI/{ => fileDialog}/ScalingFileChooser.java
+94	0	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/WebFileChooser.java
+-	-	src/main/resources/GUI/download.png
+7	0	src/main/resources/Webswing/overlay.html
+115	0	src/main/resources/Webswing/utils.js
+//9c73cc5f10d280e78557e75926772fbb4600b7bd
+
+4	8	pom.xml
+//4a869d120e03205e84d83ab46c093e5b828c7143
+
+68	29	pom.xml
+2	3	src/main/java/de/hpi/bpt/scylla/GUI/ScyllaGUI.java
+0	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+1	2	src/main/java/de/hpi/bpt/scylla/plugin_loader/PluginLoader.java
+//a4550ab8b3bd99afe62ad9621910e771b2c90ca7
+
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCSVLogger.java
+//29fcb503d9c5795176dd6e61b1d74ee84a92af87
+
+0	334	tests/adminProcess_batch_parallel/adminProcess_batch_parallel.xes
+0	16	tests/adminProcess_batch_parallel/adminProcess_global_batchactivitystats.txt
+0	483	tests/adminProcess_batch_parallel/adminProcess_global_resourceutilization.xml
+0	334	tests/adminProcess_batch_sequential_casebased/adminProcess_batch_sequential_casebased.xes
+0	16	tests/adminProcess_batch_sequential_casebased/adminProcess_global_batchactivitystats.txt
+0	483	tests/adminProcess_batch_sequential_casebased/adminProcess_global_resourceutilization.xml
+0	334	tests/adminProcess_batch_sequential_taskbased/adminProcess_batch_sequential_taskbased.xes
+0	16	tests/adminProcess_batch_sequential_taskbased/adminProcess_global_batchactivitystats.txt
+0	483	tests/adminProcess_batch_sequential_taskbased/adminProcess_global_resourceutilization.xml
+0	96	tests/de/hpi/bpt/scylla/ScyllaTest.java
+0	5	tests/p1/p0_globalconf_batchactivitystats.txt
+0	558	tests/p1/p0_globalconf_resourceutilization.xml
+0	1738	tests/p1/p1_boundary.xes
+0	5	tests/p8/p0_globalconf_batchactivitystats.txt
+0	687	tests/p8/p0_globalconf_resourceutilization.xml
+0	1858	tests/p8/p8_normalbpmn_with_dataobject.xes
+0	0	tests/retailer_batch/1522759568800_debug.html
+0	0	tests/retailer_batch/1522759568800_error.html
+0	0	tests/retailer_batch/1522759568800_report.html
+0	0	tests/retailer_batch/1522759568800_trace.html
+0	0	tests/retailer_batch/1522759569081_debug.html
+0	0	tests/retailer_batch/1522759569081_error.html
+0	0	tests/retailer_batch/1522759569081_report.html
+0	0	tests/retailer_batch/1522759569081_trace.html
+0	0	tests/retailer_batch/1522759569285_debug.html
+0	0	tests/retailer_batch/1522759569285_error.html
+0	0	tests/retailer_batch/1522759569285_report.html
+0	0	tests/retailer_batch/1522759569285_trace.html
+0	0	tests/retailer_batch/1522759632111_debug.html
+0	0	tests/retailer_batch/1522759632111_error.html
+0	0	tests/retailer_batch/1522759632111_report.html
+0	0	tests/retailer_batch/1522759632111_trace.html
+0	0	tests/retailer_batch/1522759632318_debug.html
+0	0	tests/retailer_batch/1522759632318_error.html
+0	0	tests/retailer_batch/1522759632318_report.html
+0	0	tests/retailer_batch/1522759632318_trace.html
+0	0	tests/retailer_batch/1522759632620_debug.html
+0	0	tests/retailer_batch/1522759632620_error.html
+0	0	tests/retailer_batch/1522759632620_report.html
+0	0	tests/retailer_batch/1522759632620_trace.html
+0	1710028	tests/retailer_batch/retailer_batch_bpmn.xes
+0	75162	tests/retailer_batch/retailer_global_batchactivitystats.txt
+0	90067	tests/retailer_batch/retailer_global_resourceutilization.txt
+0	5	tests/test/p0_globalconf_batchactivitystats.txt
+0	167	tests/test/p0_globalconf_resourceutilization.xml
+0	200	tests/test/test.xes
+//2a3e4605a76211b0dcbcc35ea77cef2d6b539be2
+
+0	23	.project
+//d5f32925c1144a3c99a86a771efeefede1fae035
+
+0	5	.settings/org.eclipse.jdt.core.prefs
+0	4	.settings/org.eclipse.m2e.core.prefs
+//323900e2cfef39831355726cb575b2edefa27feb
+
+0	1	.classpath
+-	-	InterfaceTesting.jar
+-	-	StatsLogger.jar
+//48daa6e8a1bdfc65dcff6ca3f14b1b972ac7b466
+
+0	93	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsCalculationObject.java
+0	539	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+0	50	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsProcessInstanceObject.java
+0	41	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsResourceObject.java
+0	50	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsTaskInstanceObject.java
+//65d5500f0dbcf97fd2d6f2c94cf2d150caf74df6
+
+4	2	README.md
+//c8d9c9461e0fa2dbd04bb8ebdc49d2da5ef32061
+
+-	-	Scylla.zip
+//e0d512cdc8ec5f76a028f4545161e81d428e029c
+
+-	-	Scylla.zip
+//56349213f7c63296fddd28eb39cbd4e546e39045
+
+5	0	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/SimulationManager.java
+//eef96385009df1e2e84678f7b20fbd6757187674
+
+0	142	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchSCParserPlugin.java
+//8b575c18b5a401a8803cb3989ea4974181801f2e
+
+0	12	src/main/main.iml
+//8902ea7067ac6c4683336bca7368521e15c3aebb
+
+0	36	screencast_samples/globalconf.xml
+0	17	screencast_samples/globalconf_01.xml
+0	149	screencast_samples/p2_normal.bpmn
+0	87	screencast_samples/p2_normal_sim.xml
+//16544c5c4565cb49d9d83fb311f7eb8637429b43
+
+0	2	.classpath
+-	-	jgoodies-forms-1.8.0-sources.jar
+-	-	jgoodies-forms-1.8.0.jar
+-	-	miglayout-src.zip
+-	-	miglayout15-swing.jar
+0	77	scylla.iml
+//8d169533aa19589e5daf3c34657c05cd13b75783
+
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+//f9496dadd6baaedcea91fd6ee6bad8dca0f180af
+
+24	38	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+2	18	src/main/java/de/hpi/bpt/scylla/GUI/{fileDialog => }/ScalingFileChooser.java
+4	15	src/main/java/de/hpi/bpt/scylla/GUI/ScyllaGUI.java
+14	15	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+32	45	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+0	79	src/main/java/de/hpi/bpt/scylla/GUI/WebSwing/WebSwingUtils.java
+0	29	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/FileDialog.java
+0	200	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/FileWriter.java
+0	94	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/WebFileChooser.java
+-	-	src/main/resources/GUI/download.png
+0	7	src/main/resources/Webswing/overlay.html
+0	115	src/main/resources/Webswing/utils.js
+//ec41fc3bbd2d57873ecae5c28f9874707539f8fc
+
+0	131	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchOnlyBatchCSVLogger.java
+//99a2cd50ebe0c312b0ad525b6e4b818bf3ec8a30
+
+201	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCSVLogger.java
+131	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchOnlyBatchCSVLogger.java
+//a9820909697a6eb7d66c422764e18d413b107b21
+
+1	5	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+0	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+20	0	src/main/java/de/hpi/bpt/scylla/GUI/WebSwing/WebSwingUtils.java
+6	0	src/main/resources/Webswing/utils.js
+//845a7ea6559970d0e273af1ec2a179bb6e1f1439
+
+33	22	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+11	4	src/main/java/de/hpi/bpt/scylla/GUI/ScyllaGUI.java
+12	8	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+8	10	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+4	1	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/FileDialog.java
+1	0	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/ScalingFileChooser.java
+-	-	src/main/resources/GUI/download.png
+//041d3e8d2704d4950570ee11d83a1c5637bd3050
+
+1	1	samples/batch_tests/BatchTestGlobalConfiguration.xml
+3	3	samples/batch_tests/BatchTestSimulationConfiguration.xml
+1	1	samples/batch_tests/ProcessModel.bpmn
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterStartEvent.java
+//dffb16f1f6be90ce70929dd0393c3f68c93f8a17
+
+8	0	samples/batch_tests/BatchTestGlobalConfiguration.xml
+56	0	samples/batch_tests/BatchTestSimulationConfiguration.xml
+151	0	samples/batch_tests/ProcessModel.bpmn
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/StartEventPanel.java
+1	1	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/TaskPanel.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+//2c607ecd823bb2669d0af30e806ef9f8cfb3a844
+
+1	5	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+//a84863ef57a5748871775b050ed04fdc9959dfa1
+
+1	0	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/TaskPanel.java
+//ec407ed609542040d586fe3011aa0b84fb0b65cf
+
+19	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
+0	1	src/main/java/de/hpi/bpt/scylla/GUI/WebSwing/WebSwingUtils.java
+5	5	src/main/java/de/hpi/bpt/scylla/GUI/fileDialog/WebFileChooser.java
+3	2	src/main/resources/Webswing/utils.js
+//916cb2c28b24228b77e43cbdcdef49151f80053d
+
+173	0	samples/adminProcess_batch_parallel.bpmn
+0	0	samples/{adminProcess_batch.bpmn => adminProcess_batch_sequential_casebased.bpmn}
+173	0	samples/adminProcess_batch_sequential_taskbased.bpmn
+1	1	samples/retailer_batch_bpmn.bpmn
+49	42	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchActivity.java
+3	4	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchLogger.java
+72	94	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchPluginUtils.java
+54	6	src/main/java/de/hpi/bpt/scylla/plugin/batch/MinMaxRule.java
+20	11	src/main/java/de/hpi/bpt/scylla/plugin/batch/ThresholdRule.java
+3	1	src/main/resources/test-data.csv
+334	0	tests/adminProcess_batch_parallel/adminProcess_batch_parallel.xes
+16	0	tests/adminProcess_batch_parallel/adminProcess_global_batchactivitystats.txt
+483	0	tests/adminProcess_batch_parallel/adminProcess_global_resourceutilization.xml
+334	0	tests/adminProcess_batch_sequential_casebased/adminProcess_batch_sequential_casebased.xes
+16	0	tests/adminProcess_batch_sequential_casebased/adminProcess_global_batchactivitystats.txt
+483	0	tests/adminProcess_batch_sequential_casebased/adminProcess_global_resourceutilization.xml
+334	0	tests/adminProcess_batch_sequential_taskbased/adminProcess_batch_sequential_taskbased.xes
+16	0	tests/adminProcess_batch_sequential_taskbased/adminProcess_global_batchactivitystats.txt
+483	0	tests/adminProcess_batch_sequential_taskbased/adminProcess_global_resourceutilization.xml
+10	3	tests/de/hpi/bpt/scylla/ScyllaTest.java
+5	0	tests/p1/p0_globalconf_batchactivitystats.txt
+0	235	tests/p1/p0_globalconf_resourceutilization.txt
+558	0	tests/p1/p0_globalconf_resourceutilization.xml
+72	72	tests/p1/p1_boundary.xes
+5	0	tests/p8/p0_globalconf_batchactivitystats.txt
+0	251	tests/p8/p0_globalconf_resourceutilization.txt
+687	0	tests/p8/p0_globalconf_resourceutilization.xml
+0	0	tests/retailer_batch/1522759568800_debug.html
+0	0	tests/retailer_batch/1522759568800_error.html
+0	0	tests/retailer_batch/1522759568800_report.html
+0	0	tests/retailer_batch/1522759568800_trace.html
+0	0	tests/retailer_batch/1522759569081_debug.html
+0	0	tests/retailer_batch/1522759569081_error.html
+0	0	tests/retailer_batch/1522759569081_report.html
+0	0	tests/retailer_batch/1522759569081_trace.html
+0	0	tests/retailer_batch/1522759569285_debug.html
+0	0	tests/retailer_batch/1522759569285_error.html
+0	0	tests/retailer_batch/1522759569285_report.html
+0	0	tests/retailer_batch/1522759569285_trace.html
+0	0	tests/retailer_batch/1522759632111_debug.html
+0	0	tests/retailer_batch/1522759632111_error.html
+0	0	tests/retailer_batch/1522759632111_report.html
+0	0	tests/retailer_batch/1522759632111_trace.html
+0	0	tests/retailer_batch/1522759632318_debug.html
+0	0	tests/retailer_batch/1522759632318_error.html
+0	0	tests/retailer_batch/1522759632318_report.html
+0	0	tests/retailer_batch/1522759632318_trace.html
+0	0	tests/retailer_batch/1522759632620_debug.html
+0	0	tests/retailer_batch/1522759632620_error.html
+0	0	tests/retailer_batch/1522759632620_report.html
+0	0	tests/retailer_batch/1522759632620_trace.html
+1710028	0	tests/retailer_batch/retailer_batch_bpmn.xes
+75162	0	tests/retailer_batch/retailer_global_batchactivitystats.txt
+90067	0	tests/retailer_batch/retailer_global_resourceutilization.txt
+5	0	tests/test/p0_globalconf_batchactivitystats.txt
+0	51	tests/test/p0_globalconf_resourceutilization.txt
+167	0	tests/test/p0_globalconf_resourceutilization.xml
+//b80ac9f1714925fc6c93191654d1837561757431
+
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+0	7	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchLogger.java
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTBPlugin.java
+0	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTEPlugin.java
+0	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTTPlugin.java
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/ThresholdRule.java
+0	2	src/main/java/de/hpi/bpt/scylla/plugin/boundaryevent/BoundaryEventSchedulingPlugin.java
+0	3	src/main/java/de/hpi/bpt/scylla/plugin/dataobject/DataObjectField.java
+0	11	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//301fdf4bce8486b2e26d624dac8b294fd69246ff
+
+17	5	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+2	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsLogger.java
+//24b31157b49e430aa5d03c94d2cc6d253b4ef7a0
+
+2	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//1bde49416f6d898c56ea2f29a8cc7b21cf45d67e
+
+62	0	samples/adminProcess_sim_old.xml
+239	0	samples/retailer_batch_bpmn.bpmn
+131	0	samples/retailer_batch_sim.xml
+133	0	samples/retailer_bpmn.bpmn
+20	0	samples/retailer_global.xml
+53	0	samples/retailer_sim.xml
+13	7	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
+4	4	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchActivity.java
+7	12	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNEEPlugin.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNIEPlugin.java
+5	7	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+11	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterExecutionType.java
+18	15	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterStartEvent.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterState.java
+0	7	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchLogger.java
+145	158	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchPluginUtils.java
+3	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchSCParserPlugin.java
+4	12	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTBPlugin.java
+31	34	src/main/java/de/hpi/bpt/scylla/plugin/batch/ThresholdRule.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsLogger.java
+21	14	src/main/java/de/hpi/bpt/scylla/plugin_loader/PluginLoader.java
+//1f1812efda0927d73d25b301ca3d4907a6f03df5
+
+2	2	samples/adminProcess_batch.bpmn
+6	6	samples/adminProcess_batch_sim.xml
+2	2	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
+10	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNEEPlugin.java
+42	27	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+2	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterStartEvent.java
+20	23	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchPluginUtils.java
+36	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTBPlugin.java
+3	4	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTCPlugin.java
+2	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTEPlugin.java
+0	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTTPlugin.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/MinMaxRule.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/batch/ThresholdRule.java
+13	3	src/main/java/de/hpi/bpt/scylla/simulation/ProcessSimulationComponents.java
+//65ae0777bc2362fe892c9bbac29be5d851af3369
+
+15	3	samples/adminProcess_batch.bpmn
+8	3	samples/adminProcess_batch_sim.xml
+1	1	samples/adminProcess_sim.xml
+3	3	samples/p5_batch.bpmn
+1	1	samples/p5_batch_sim.xml
+2	2	samples/p61_return_batch_sim.xml
+9	1	src/main/java/de/hpi/bpt/scylla/model/configuration/SimulationConfiguration.java
+8	0	src/main/java/de/hpi/bpt/scylla/model/process/ProcessModel.java
+139	8	src/main/java/de/hpi/bpt/scylla/parser/ProcessModelParser.java
+8	1	src/main/java/de/hpi/bpt/scylla/parser/SimulationConfigurationParser.java
+64	44	src/main/java/de/hpi/bpt/scylla/plugin/batch/{BatchRegion.java => BatchActivity.java}
+21	17	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNEEPlugin.java
+2	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNIEPlugin.java
+1	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchBPMNSEPlugin.java
+40	11	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchCluster.java
+44	34	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchClusterStartEvent.java
+11	11	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchLogger.java
+89	32	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchPluginUtils.java
+10	8	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchSCParserPlugin.java
+7	3	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTBPlugin.java
+2	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTCPlugin.java
+6	3	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTEPlugin.java
+3	0	src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTTPlugin.java
+2	2	src/main/java/de/hpi/bpt/scylla/plugin/batch/MinMaxRule.java
+3	3	src/main/java/de/hpi/bpt/scylla/plugin/batch/ThresholdRule.java
+54	11	src/main/java/de/hpi/bpt/scylla/simulation/ProcessSimulationComponents.java
+0	1	src/main/resources/META-INF/plugins/plugins_list
+3	1	src/main/resources/test-data.csv
+3	3	tests/de/hpi/bpt/scylla/ScyllaTest.java
+0	5	tests/p1/p0_globalconf_batchregionstats.txt
+34	34	tests/p1/p0_globalconf_resourceutilization.txt
+96	96	tests/p1/p1_boundary.xes
+0	5	tests/p8/p0_globalconf_batchregionstats.txt
+0	5	tests/test/p0_globalconf_batchregionstats.txt
+//8a808728dc0b220c64daf5cce59b50fde04c9722
+
+93	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsCalculationObject.java
+536	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsProcessInstanceObject.java
+41	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsResourceObject.java
+50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsTaskInstanceObject.java
+93	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsCalculationObject.java
+536	408	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsLogger.java
+50	50	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsProcessInstanceObject.java
+41	41	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsResourceObject.java
+50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskInstanceObject.java
+0	37	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskObject.java
+//82771b4f7b2d514371a81145d8706d18f4c59fc6
+
+19	15	tests/de/hpi/bpt/scylla/ScyllaTest.java
+//5edcbe7f0dc21a74476284c6154bc9f125d19c97
+
+1	1	samples/p1_boundary_sim.xml
+24	0	scylla.iml
+2	1	src/main/java/de/hpi/bpt/scylla/SimulationManager.java
+3	0	src/main/resources/test-data.csv
+85	0	tests/de/hpi/bpt/scylla/ScyllaTest.java
+5	0	tests/p1/p0_globalconf_batchregionstats.txt
+235	0	tests/p1/p0_globalconf_resourceutilization.txt
+1738	0	tests/p1/p1_boundary.xes
+5	0	tests/p8/p0_globalconf_batchregionstats.txt
+251	0	tests/p8/p0_globalconf_resourceutilization.txt
+1858	0	tests/p8/p8_normalbpmn_with_dataobject.xes
+5	0	tests/test/p0_globalconf_batchregionstats.txt
+51	0	tests/test/p0_globalconf_resourceutilization.txt
+200	0	tests/test/test.xes
+//002d3db04ea96d0c94237c5585d88a78878ce4aa
+
+23	1	.gitignore
+//e295eb0ecd96679908a82b73b14045d48bd095d5
+
+1	0	.travis.yml
+1	1	.vscode/launch.json
+8	1	pom.xml
+//f8dc10cee868f9ecf48db3c08be833193ce938d2
+
+1	0	.gitattributes
+-	-	lib/OpenXES-20160212.jar
+-	-	lib/OpenXES-XStream-20160212.jar
+-	-	lib/Spex.jar
+-	-	lib/desmoj-2.5.1c-bin.jar
+3	0	plugins/InterfaceTesting.jar
+3	0	plugins/StatsLogger.jar
+//e21a5bd65de70ecdc6ae248a18f49b17b81c1ba5
+
+11	1	pom.xml
+//08ce6a183b054abf3f25b40d784b13f356071c6f
+
+4	0	.gitignore
+//350d04eacdd913fcef060890fd9e7d4030883730
+
+1	1	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//d4c8da8a3071248252f7264b6796255087d7ba72
+
+0	19	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//87a0f7d394a95ad52e700dcf1422867e23e7d0ab
+
+6	0	.gitignore
+//120e48c219f76fe088769849b679b08e4cd82530
+
+4	1	.travis.yml
+//d43f1a7f3bdfec188e9d087bfd723bee09bdefc9
+
+7	2	src/main/java/de/hpi/bpt/scylla/Scylla.java
+49	1	src/test/java/de/hpi/bpt/scylla/ArgumentTests.java
+//ae888789ee7a5cabb4cacea144acd0d31853c58f
+
+0	1	.travis.yml
+//7558969e431e51ee04312575025eebbc1823e9cc
+
+6	1	.travis.yml
+//4b9d0ed2d487e4802944a7697ce1eac19d33b083
+
+2	2	src/main/java/de/hpi/bpt/scylla/Scylla.java
+18	0	src/test/java/de/hpi/bpt/scylla/ArgumentTests.java
+//7f2afcf898093a90fd12e0b187926f4718cd5bf7
+
+6	4	pom.xml
+//4d9dd9b95cd7112f8b3959618fde246dc2fadd1a
+
+2	2	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//53ca867a42bc17f0cca98c5a86a429915f23a582
+
+1	1	.vscode/launch.json
+38	7	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//a1879926903ae97fd6c455469c9f59a764a40ac7
+
+6	4	.gitignore
+3	0	.vscode/settings.json
+//807745e962fe1d9e69703de7733d8f7e342a8a9e
+
+32	0	.vscode/launch.json
+54	102	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//12b4c1774f9fef0130b4640693c23c1e79e120b6
+
+7	0	.travis.yml
+//e85486dedb208b41958761ed46c0bf42979654e4
+
+1	0	.settings/org.eclipse.core.resources.prefs
+77	72	pom.xml
+14	0	src/test/java/de/hpi/bpt/scylla/TravisTests.java
 //848abef9d99cec7b5c39c28cd96c1d698e85a345
 
 4	8	pom.xml
@@ -842,6 +1798,68 @@
 -	-	miglayout-src.zip
 -	-	miglayout15-swing.jar
 0	77	scylla.iml
+//80c09cfbfbb7eab6d71440985a3a19923b9788a2
+
+1	0	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+2	0	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+7	8	src/main/java/de/hpi/bpt/scylla/GUI/plugin/InputFieldPluggable.java
+8	0	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeInputFieldPluggable.java
+//effebb8109856128fc1a01253112a7fe713fc22e
+
+8	1	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+3	1	src/main/java/de/hpi/bpt/scylla/GUI/FormManager.java
+2	1	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GCFormManager.java
+1	5	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+1	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+13	3	src/main/java/de/hpi/bpt/scylla/GUI/plugin/EditorTabPluggable.java
+3	4	src/main/java/de/hpi/bpt/scylla/GUI/plugin/IGUIPlugin.java
+27	16	src/main/java/de/hpi/bpt/scylla/GUI/plugin/InputFieldPluggable.java
+1	2	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeEditorTabPlugin.java
+29	16	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeInputFieldPluggable.java
+//0fa99fd69bbf2958d0fb708d4ada1e2bab77e0b3
+
+16	2	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+8	18	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+2	2	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/InstancePanel.java
+3	3	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/ResourcePanel.java
+28	55	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+2	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/StartEventPanel.java
+2	2	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/TaskPanel.java
+2	8	src/main/java/de/hpi/bpt/scylla/GUI/plugin/EditorTabPluggable.java
+7	0	src/main/java/de/hpi/bpt/scylla/GUI/plugin/IGUIPlugin.java
+38	0	src/main/java/de/hpi/bpt/scylla/GUI/plugin/InputFieldPluggable.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeEditorTabPlugin.java
+54	0	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeInputFieldPluggable.java
+//b0fd22ae2b3f51deaead5ba7a1aaa612515dc3c9
+
+9	0	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+3	15	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+3	10	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/InstancePanel.java
+4	15	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/ResourcePanel.java
+7	35	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+3	10	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/StartEventPanel.java
+3	10	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/TaskPanel.java
+//ea5f77abfb91d5d76f808c91fdab85f036897656
+
+28	2	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+13	17	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+3	6	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/InstancePanel.java
+5	10	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/ResourcePanel.java
+14	100	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+12	12	src/main/java/de/hpi/bpt/scylla/GUI/plugin/EditorTabPluggable.java
+8	0	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeEditorTabPlugin.java
+//5f9be16d01aacc8ad5c9fa864b0d0fee5cf301c2
+
+31	0	src/main/java/de/hpi/bpt/scylla/GUI/EditorPane.java
+9	34	src/main/java/de/hpi/bpt/scylla/GUI/GlobalConfigurationPane/GlobalConfigurationPane.java
+19	62	src/main/java/de/hpi/bpt/scylla/GUI/SimulationConfigurationPane/SimulationConfigurationPane.java
+29	0	src/main/java/de/hpi/bpt/scylla/GUI/plugin/EditorTabPluggable.java
+7	1	src/main/java/de/hpi/bpt/scylla/GUI/plugin/IGUIPlugin.java
+33	0	src/main/java/de/hpi/bpt/scylla/plugin/guiPluginPrototypes/PrototypeEditorTabPlugin.java
+2	1	src/main/resources/META-INF/plugins/plugins_list
+//ca10dc239a446b1eeb9c48d4d5e9e4794660f0b3
+
+7	0	src/main/java/de/hpi/bpt/scylla/GUI/plugin/IGUIPlugin.java
 //e151e0b5ce6cdfb3d3fcef3edc4e8649911e763b
 
 1	1	src/main/java/de/hpi/bpt/scylla/GUI/SimulationPane/SimulationPane.java
@@ -1103,6 +2121,50 @@
 41	41	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsResourceObject.java
 50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskInstanceObject.java
 0	37	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskObject.java
+//a6e9cc531e67fec05bffd338b93e8ce860067060
+
+93	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsCalculationObject.java
+536	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsLogger.java
+50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsProcessInstanceObject.java
+41	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsResourceObject.java
+50	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskInstanceObject.java
+//e01e3a5680fabeed0e03470d48017d778704d63d
+//76f902cb7e23f77dc5409c604b81cb062c9440e4
+
+3	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//db61062fafd47b7db6046491f9d6ea2204c3bd12
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//78d22a2dba887aa4b54a28728d36cce05b1eef2b
+
+11	1	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//49c2c3f5467268acefa8c35bcbdf17644adf6cfc
+
+8	8	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+0	39	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsTaskInstanceObject.java
+//f8885dfe6cbd65039c74eb23f2613e98a99d95f2
+
+21	1	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsCalculationObject.java
+//2449c46fccda6931f57e33ca2eea4852bc72aa7b
+
+6	81	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//a85d083029edcbd15ee62b52a7d3e9d066e3ef1c
+
+14	1	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsCalculationObject.java
+235	511	src/main/java/de/hpi/bpt/scylla/plugin/statslogger/StatisticsLogger.java
+//418764315967cedea9a438d30cc53a7e2994a580
+
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/{statslogger_nojar => statslogger}/StatisticsCalculationObject.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/{statslogger_nojar => statslogger}/StatisticsLogger.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/{statslogger_nojar => statslogger}/StatisticsProcessInstanceObject.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/{statslogger_nojar => statslogger}/StatisticsResourceObject.java
+1	1	src/main/java/de/hpi/bpt/scylla/plugin/{statslogger_nojar => statslogger}/StatisticsTaskInstanceObject.java
+//13e0edb5fed7c195822920ffe92c9ea61717620c
+
+60	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsCalculationObject.java
+604	137	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsLogger.java
+89	0	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskInstanceObject.java
+0	37	src/main/java/de/hpi/bpt/scylla/plugin/statslogger_nojar/StatisticsTaskObject.java
 //5e6da1335d9b7cf0c408da6c17508e5787f9b0fa
 //0f2936d572048d36964d1ef98bf9fac2517d88c8
 
@@ -1275,6 +2337,9 @@
 //430a98fc451419a6909518d58c945ee86facfea9
 
 13	9	README.md
+//72a7bf9626ba3aaddb7ec9574bc08c54a7268975
+
+2	2	README.md
 //bc6b79314e4fc7197fce5d7b6401523d4e0aa32c
 //c885807acab0a6c564f694d28611a0eb586ee9b2
 
@@ -2838,6 +3903,34 @@
 5	0	.settings/org.eclipse.jdt.core.prefs
 4	0	.settings/org.eclipse.m2e.core.prefs
 2	2	src/main/java/de/hpi/bpt/scylla/Scylla.java
+//09ef802da80af2a6f77a2a2e58cf5283cc736087
+
+0	1	scylla/src/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.parser.ProcessModelParserPluggable
+//ab3013b8007485c127e53c2a7e58fdbfb6fea1b0
+//13b02f208782bc9d4e95c0bc6872efbc968e4d68
+
+26	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/Decision.java
+363	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/DmnLogger.java
+40	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/DmnNodeInfo.java
+46	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/DmnPluginUtils.java
+58	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/DmnStatsInfo.java
+198	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/DmnTBPlugin.java
+58	1	src/main/java/de/hpi/bpt/scylla/plugin/gateway_exclusive/ExclusiveGatewayEventPlugin.java
+2	1	src/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.logger.OutputLoggerPluggable
+2	1	src/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.simulation.event.TaskBeginEventPluggable
+//a20c27473e5a7c5d5eef003c4c50e87252d3b7e7
+
+35	1	pom.xml
+1	1	samples/p0_globalconf.xml
+5	5	samples/p0_globalconf_without.xml
+-	-	scylla/lib/DMN-formulae-1.0-SNAPSHOT.jar
+14	0	scylla/src/main/java/de/hpi/bpt/drools/model/bahncard/DiscountValue_Output.java
+25	0	scylla/src/main/java/de/hpi/bpt/drools/model/bahncard/Input.java
+53	0	scylla/src/main/java/de/hpi/bpt/drools/rules_engine/DroolsRuleEngine.java
+10	0	scylla/src/main/java/de/hpi/bpt/scylla/plugin/dmn/RulesEngine.java
+6	0	scylla/src/main/resources/META-INF/kmodule.xml
+3	0	scylla/src/main/resources/META-INF/maven/pom.properties
+238	0	scylla/src/main/resources/rules/Rules_manage+discount+final_8159e869ba6740428cb3d412511374af.drl
 //30eb685ded359cdff924eac89a15f22601971f53
 
 -	-	{scylla/lib => lib}/OpenXES-20160212.jar
@@ -3050,6 +4143,18 @@
 0	0	{scylla/src => src}/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.simulation.event.TaskCancelEventPluggable
 0	0	{scylla/src => src}/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.simulation.event.TaskEnableEventPluggable
 0	0	{scylla/src => src}/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.simulation.event.TaskTerminateEventPluggable
+//1413e60d149a6fd6df904878105528d03f7f6e6a
+
+12	0	sample_simulation_input/p61_return_batch.bpmn
+0	10	sample_simulation_input/p61_return_batch_sim.xml
+1	1	scylla/src/main/java/de/hpi/bpt/scylla/Scylla.java
+1	1	scylla/src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchPluginUtils.java
+67	53	scylla/src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchSCParserPlugin.java
+2	3	scylla/src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTBPlugin.java
+2	2	scylla/src/main/java/de/hpi/bpt/scylla/plugin/batch/BatchTEPlugin.java
+1	0	scylla/src/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.parser.ProcessModelParserPluggable
+0	1	scylla/src/main/resources/META-INF/services/de.hpi.bpt.scylla.plugin_type.parser.SimulationConfigurationParserPluggable
+//461d13fc333bedb150360f87116388d8c25d6b33
 //5473ee4a8e0e21acf43b29281ac2791963f8f05e
 //3a525dd8c0178158275815e47e6f7970372489df
 
@@ -3089,6 +4194,12 @@
 3	3	scylla/src/main/java/de/hpi/bpt/scylla/plugin/boundaryevent/BoundarySCParserPlugin.java
 11	86	scylla/src/main/java/de/hpi/bpt/scylla/simulation/ProcessSimulationComponents.java
 95	0	scylla/src/main/java/de/hpi/bpt/scylla/simulation/utils/SimulationUtils.java
+//e36dd96a1201ad35578a5e5d65a5db02135f4614
+
+12	0	scylla/pom.xml
+//0d893a471f932b921473f72563a540da46f15fa5
+
+66	22	scylla/src/main/java/de/hpi/bpt/scylla/Scylla.java
 //9e8faf6f0b516334451c53960dee001a6e9e42c4
 
 36	0	sample_simulation_input/p0_globalconf.xml
