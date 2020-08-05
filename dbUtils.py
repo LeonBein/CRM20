@@ -15,7 +15,7 @@ def runQuery(query, mute=False):
     lastResult = result
     #display(result)
     end = time.time()
+    print('Time used: '+str(end - start))
     if not mute:
-        print('Time used: '+str(end - start))
         display(Audio('./beep.mp3', autoplay=True))
     return result
