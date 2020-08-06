@@ -19,36 +19,6 @@ def removeHeader(contentWithHeader):
 
 def occurencesOf(regex, content):
     return len(regex.findall(content))
-
-#Old Code
-def timedMetricPerFileForRepo(repoTuple, metricFunction, fileCountConsumer = safeDivision):
-    (user, project) = repoTuple
-    repo = getRepo(user, project)
-    timestamps = []
-    metrics = []
-    try:
-        start = time.time()
-        for commit in repo.iter_commits():
-            fileCount = 0
-            aggregatedMetric = 0
-            for obj in commit.tree.traverse():
-                if obj.type == 'blob' and obj.name.endswith('.java'):
-                    fileCount = fileCount + 1
-                    content = obj.data_stream.read().decode("CP437")#.decode("utf-8")
-                    metric = metricFunction(content)
-                    aggregatedMetric = aggregatedMetric + metric
-            metrics.append(fileCountConsumer(aggregatedMetric, fileCount))
-            timestamps.append(commit.committed_date)
-
-        end = time.time()
-        print('Time used for '+str(repoTuple)+': '+str(end - start))
-#        while len(metrics) > 0 and metrics[-1] < 1:
-#            metrics.pop()
-#            timestamps.pop()
-        return (timestamps, metrics)
-    except Exception as e:
-        print('Failed to analyze '+str(repoTuple)+': '+str(e))
-        return ([],[])
     
 def loc(contentWithHeader, **kwargs):
     return len(contentWithHeader.split('\n'))
