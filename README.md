@@ -1,1 +1,2 @@
-# CRM20
+# Language Influence on Code Style - How learning a new programming language changes the way we code
+### A project of the code repository mining seminar of the software architecture group at the Hasso Plattner Institute at the University of Potsdam
