@@ -1,7 +1,5 @@
-<span style="font-size:200%">Language Influence on Code Style - How learning a new programming language changes the way we code</span>
-
-### A project of the code repository mining seminar of the software architecture group at the Hasso Plattner Institute at the University of Potsdam
----
+##### A project of the code repository mining seminar of the software architecture group at the Hasso Plattner Institute at the University of Potsdam
+# Language Influence on Code Style - How learning a new programming language changes the way we code 
 
 This is the repository for the "Language Influence on Code Style" project of the  code repository mining seminar SS20 of the software architecture group at the Hasso Plattner Institute at the University of Potsdam.
 
