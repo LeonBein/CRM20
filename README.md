@@ -22,3 +22,16 @@ Aggregation of user data in the [DataExplorer](DataExplorer.ipynb) mainly lead t
 Analysis of selected repositories in the [RepoAnalysis](RepoAnalysis.ipynb) lead to three result sets that can be found in the tables `lb_results1`, `lb_results2`, and `lb_results3`.
 
 Results_Iteration notebooks [#1](Results_Iteration#1.ipynb), [#2](Results_Iteration#2.ipynb), and [#3](Results_Iteration#3.ipynb) //TODO
+
+
+## Setup
+The technical requirements can be installed in a Python 3 environment with:
+```
+pip install -r requirements.txt
+```
+Jupyter lab must be installed to explore the notebooks of this project. Additionally, the Jupyter table of contents extension is recommended because it numbers all headings and allows quick navigation through the notebooks:
+```
+jupyter labextension install @jupyterlab/toc
+```
+
+The data is based on a fork of the [GHTorrent](https://ghtorrent.org/) database. The `engine` variable of the [dbUtils](dbUtils.py) module must be adapted to a valid connection.
