@@ -42,6 +42,12 @@ def managedRepos():
         return (user, project)
     return list(map(splitPath, knownRepos()))
 
+def splitUrl(url):
+    split = url.split('/')
+    user = split[-2]
+    project = split[-1]
+    return (user, project)
+
 def hasRepo(user, project):
     return os.path.isdir(pathFor(user, project))
 
@@ -67,7 +73,8 @@ def downloadRepo(user, project, override=False):
         print('Cloned repo "'+user+'/'+project+'"')
         return repo        
     except GitCommandError as err:
-        print('Could not download repo "'+user+'/'+project+'": {0}'.format(err))
+        print('Could not download repo "'+user+'/'+project)
+        raise err
         
 
 def getRepo(user, project):
@@ -82,8 +89,12 @@ def isJavaFile(gitObject):
 def isJavaRepo(user, project):
     try:
         repo = getRepo(user, project)
-        commit = list(repo.iter_commits())[0]
-        return any(isJavaFile(obj) for obj in commit.tree.traverse())
+    except Exception as e:
+        print('Failed to download '+str((user, project))+': '+str(e))
+        return False
+    
+    try:
+        return next(filter(lambda x: x.endswith('.java'), repo.git.ls_tree('--full-tree', '--name-only', '-r', 'HEAD').split('\n')), None) != None
     except Exception as e:
         print('Failed to check '+str((user, project))+': '+str(e))
         return False

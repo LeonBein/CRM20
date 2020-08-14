@@ -41,7 +41,7 @@ def num_lambdas(content, **kwargs):
     
 def num_comment_lines(content, **kwargs):
     matches = commentRegex.findall(stringRemoveRegex.sub("\"...\"", content))
-    # Lines of comment; trailing newlines indicate that comment ends with the newline and are therefore stripped
+    # Lines of comment; trailing newlines indicate that comment ends with the newline (indicating a oneline comment) and are therefore stripped
     commentLines = sum(map(lambda x: len(x.rstrip().split("\n")), matches))
     return commentLines
 
@@ -69,7 +69,7 @@ metricSuite = [loc, cloc, file_count, num_methods, num_lambdas, num_comment_line
 def calculateMetrics(repoTuple, metricSuite=metricSuite):
     (user, project, repoId) = repoTuple
     repo = repoLibrarian.getRepo(user, project)
-    columns = ['sha', 'parent', 'timestamp', 'repo_id', 'additions', 'deletions'] + list(map(lambda fun: fun.__name__, metricSuite))
+    columns = ['sha', 'parent', 'timestamp', 'repo_id'] + list(map(lambda fun: fun.__name__, metricSuite))
     results = []
     try:
         start = time.time()
@@ -88,9 +88,7 @@ def metricsForCommit(commit, metricSuite, repoId):
         'sha' : commit.hexsha,
         'parent' : commit.parents[-1].hexsha if len(commit.parents) == 1 else None,
         'timestamp' : commit.committed_date,
-        'repo_id' : repoId,
-        'additions': 0,
-        'deletions' : 0
+        'repo_id' : repoId
     }
     for metricFunction in metricSuite:
         resultTuple[metricFunction.__name__] = 0
@@ -106,7 +104,7 @@ def metricsForCommit(commit, metricSuite, repoId):
     return resultTuple
     
 
-# Code for iteration #2 
+# Code for iteration #2 and #3
 def safeToInt(string):
     return 0 if string == '-' else int(string)
 
