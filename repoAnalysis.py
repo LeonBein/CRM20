@@ -250,7 +250,7 @@ def runFullAnalysis(repos, tableName, repoFolder, logfile='log.txt', suite=metri
     with Pool(int(multiprocessing.cpu_count()*3/4)) as pool:
         allMetrics = pool.map(functools.partial(runDeltaSuite, tableName=tableName, logfile=logfile, suite=suite), repos)
     end = time.time()
-    dbUtils.log('Total Time used: '+str(end - start))
+    dbUtils.log('Total Time used: '+str(end - start), logfile)
     
 def runDeltaSuite(repo, tableName, logfile='log.txt', suite=metricSuite):
     '''
