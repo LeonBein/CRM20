@@ -4,6 +4,7 @@ This small module contains utility functions to run database queries and other l
 
 import psycopg2
 import sqlalchemy
+from sqlalchemy import MetaData, Table
 
 import pandas
 from IPython.display import Audio
@@ -11,6 +12,7 @@ import time
 import multiprocessing
 from datetime import datetime
 
+defaultSchema = 'crm20'
 engine = sqlalchemy.create_engine('postgresql://crm20:crm20@localhost:5433/github')
 lastResult = None
 
@@ -40,3 +42,35 @@ def log(text, file='log.txt'):
     with logSemaphore:
         with open(file, 'a') as file:
             file.write('========= '+str(datetime.now())+' ==========\n'+str(text)+'\n')
+            
+'''
+Wraps table creation (for modularity); originates from the RepoAnalysis notebook
+'''       
+def createTable(tableName, columns):
+    meta = MetaData(schema=defaultSchema)
+    table = Table(
+        tableName, meta,
+        *columns
+    )
+    meta.create_all(engine)
+    engine.dispose()
+
+'''
+Wraps table deletion, exception handling catches error that is thrown because the query does not return data; originates from the RepoAnalysis notebook
+'''
+def deleteTable(tableName):
+    try:
+        runQuery('''
+            DROP TABLE '''+defaultSchema+'''.'''+tableName+'''
+        ''')
+    except:
+        pass
+
+'''
+Safely writes a pandas dataframe to a given table; originates from the RepoAnalysis notebook
+'''
+dataBaseSemaphore = multiprocessing.Semaphore()
+def writeDataToDb(data, tableName):
+    with dataBaseSemaphore:
+        data.to_sql(tableName, schema=defaultSchema, con=engine, if_exists='append', index=False)
+        engine.dispose()

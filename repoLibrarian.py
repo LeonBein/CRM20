@@ -86,7 +86,7 @@ def getRepo(user, project):
 def isJavaFile(gitObject):
     return gitObject.type == 'blob' and gitObject.name.endswith('.java')
 
-def isJavaRepo(user, project):
+def isJavaRepo(user, project, *args):
     try:
         repo = getRepo(user, project)
     except Exception as e:

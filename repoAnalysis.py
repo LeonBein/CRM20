@@ -6,6 +6,13 @@ import pandas
 from git.util import hex_to_bin
 from git import Commit
 
+import functools
+import dbUtils
+from sqlalchemy import Column, Integer, String
+import multiprocessing
+from multiprocessing import Pool
+from IPython.utils import io
+
 stringRemoveRegex = re.compile(r"\".*?\"")
 commentRegex = re.compile(r"//.*?\n|/\*.*?\*/", re.S)
 
@@ -65,7 +72,7 @@ def identity(x,*y):
 
 metricSuite = [loc, cloc, file_count, num_methods, num_lambdas, num_comment_lines, num_reflection, num_snakes, total_indent]
    
-# Code for Iteration #1
+# Analysis code for Iteration #1
 def calculateMetrics(repoTuple, metricSuite=metricSuite):
     (user, project, repoId) = repoTuple
     repo = repoLibrarian.getRepo(user, project)
@@ -104,7 +111,7 @@ def metricsForCommit(commit, metricSuite, repoId):
     return resultTuple
     
 
-# Code for iteration #2 and #3
+# Analysis code for iteration #2 and #3 (and future iterations)
 def safeToInt(string):
     return 0 if string == '-' else int(string)
 
@@ -176,3 +183,25 @@ def calculateDeltaMetrics(repoTuple, metricSuite=metricSuite):
     except Exception as e:
         print('Failed to analyze '+str(repoTuple)+': '+str(e))
         return []
+    
+# Suite running code for future iterations
+def runFullAnalysis(repos, tableName, repoFolder, logfile='log.txt', suite=metricSuite):
+    createResultTable(tableName, suite)
+    repoLibrarian.setReposFolder(repoFolder)
+    start = time.time()
+    with Pool(int(multiprocessing.cpu_count()*3/4)) as pool:
+        allMetrics = pool.map(functools.partial(runDeltaSuite, tableName=tableName, logfile=logfile, suite=suite), repos)
+    end = time.time()
+    dbUtils.log('Total Time used: '+str(end - start))
+    
+def runDeltaSuite(repo, tableName, logfile='log.txt', suite=metricSuite):
+    with io.capture_output() as output:
+        data = calculateDeltaMetrics(repo, suite)
+        dbUtils.writeDataToDb(data, tableName)
+    dbUtils.log(output, logfile)
+    return len(data) > 0
+
+def createResultTable(tableName, suite=metricSuite):
+    columns = [Column('sha', String), Column('parent', String), Column('timestamp', Integer), Column('repo_id', Integer), Column('additions', Integer), Column('deletions', Integer)]
+    columns = columns + list(map(lambda func: Column(func.__name__, Integer), suite))
+    dbUtils.createTable(tableName, columns)
