@@ -1,0 +1,2 @@
+# Results folder
+This folder includes logs and figures produces by the three analysis runs. See result set evaluation notebooks [#1](Results_Iteration#1.ipynb), [#2](Results_Iteration#2.ipynb), and [#3](Results_Iteration#3.ipynb) and the [DataExplorer](DataExplorer.ipynb) notebook for the origins of these files.

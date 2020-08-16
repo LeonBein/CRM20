@@ -1,3 +1,5 @@
+//Disclaimer: This is the log for the second analysis run
+
 ========= 2020-08-01 18:31:58.540966 ==========
 Time used for ('jcarvalho', 'bennu-spring', 6128043): 0.412914514541626
 ========= 2020-08-01 18:31:58.619100 ==========

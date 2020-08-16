@@ -1,3 +1,5 @@
+//Disclaimer: This is the log for the third analysis run
+
 ========= 2020-08-15 00:21:58.277896 ==========
 Time used for ('MovingBlocks', 'Terasology', 613): 161.77285957336426
 

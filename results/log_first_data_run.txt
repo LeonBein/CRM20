@@ -1,3 +1,5 @@
+//Disclaimer: This is the log for the first big analysis run
+
 ========= 2020-07-10 20:41:18.324645 ==========
 Time used for ('yijkan', 'Internship', 10791195): 0.36566805839538574
 ========= 2020-07-10 20:41:18.361382 ==========

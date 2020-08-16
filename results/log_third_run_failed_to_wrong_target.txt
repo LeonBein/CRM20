@@ -1,3 +1,5 @@
+//Disclaimer: The run of this log wrote data to table wrongly and is therefore considered failed
+
 ========= 2020-08-14 16:30:19.036500 ==========
 Time used for ('motech', 'ananya-batch', 573907): 0.3964095115661621
 
