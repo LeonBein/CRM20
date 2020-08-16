@@ -1,0 +1,1 @@
+This folder includes additional documentation to complement the notebooks. Currently this only includes a data schema over the relationships and numbers of rows for the relations created in the [DataExplorer](DataExplorer.ipynb) notebook.
