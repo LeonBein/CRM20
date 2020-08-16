@@ -238,7 +238,7 @@ def calculateDeltaMetrics(repoTuple, metricSuite=metricSuite):
         return []
     
 # ===== Suite running code for future iterations ===== 
-def runFullAnalysis(repos, tableName, repoFolder, logfile='log.txt', suite=metricSuite):
+def runFullAnalysis(repos, tableName, repoFolder, logfile='log.txt', suite=metricSuite, loadFactor=3/4):
     '''
     Fully runs all functions of a metric suite for all repositories and writes the results to database (parallelizes mutliple runs of `runDeltaSuite`)
     Uses the delta approach for each commit of each repo.
@@ -247,7 +247,7 @@ def runFullAnalysis(repos, tableName, repoFolder, logfile='log.txt', suite=metri
     createResultTable(tableName, suite)
     repoLibrarian.setReposFolder(repoFolder)
     start = time.time()
-    with Pool(int(multiprocessing.cpu_count()*3/4)) as pool:
+    with Pool(int(multiprocessing.cpu_count()*loadFactor)) as pool:
         allMetrics = pool.map(functools.partial(runDeltaSuite, tableName=tableName, logfile=logfile, suite=suite), repos)
     end = time.time()
     dbUtils.log('Total Time used: '+str(end - start), logfile)
