@@ -19,16 +19,27 @@ The [UserAnalysis](UserAnalysis.ipynb) notebook is a small sideproject analyzing
 
 ## Resulting Artifacts
 Besides the Notebooks, further artifacts can be explored:
-### Tables
-Note: All resulting tables are in schema named `crm20`.<br>
-Aggregation of user data in the [DataExplorer](DataExplorer.ipynb) mainly lead to the creation of the `lb_polyglots` and `lb_controlgroup` tables, which contain information on java developers that have been classified as (not) learning Python or Javascript as secondary language.
+Aggregation of user data in the [DataExplorer](DataExplorer.ipynb) mainly lead to the creation of the `lb_polyglots` and `lb_controlgroup` tables, which contain information on java developers that have been classified as (not) learning Python or Javascript as secondary language.<br>
+Note: All resulting tables are in schema named `crm20`.
 
 Analysis of selected repositories in the [RepoAnalysis](RepoAnalysis.ipynb) lead to three result sets that can be found in the tables `lb_results1`, `lb_results2`, and `lb_results3`, the evaluation of which can be found in the Results_Iteration notebooks [#1](Results_Iteration#1.ipynb), [#2](Results_Iteration#2.ipynb), and [#3](Results_Iteration#3.ipynb).
 
+## Project Results Summarized
+The project has shown the technical possibility to analyze developer influence on project code metrics fast. It includes useful technical artifacts to ease further projects in code repository mining. 
+
+The project also yielded commit metric data sets for programmers categorized as Java only and polyglot (multilingual) programmers that can be used for further scientific analysis. It also yielded the methods to reproduce and extend this dataset.
+
+Evaluation of the collected data has shown that for Java programmers there is a high probability for for a correlation between learning secondary languages Python or Javascript and having different constitutional code quality. The concrete nature of the correlation is uncertain for some metrics and might motivate further evaluations.
+
+## Future Work
+There are multiple points for future projects: Calculated code metric functions can be refined and extended by new metrics. The created data can be further analyzed, especially taking temporal aspects into account. It can also be scaled up to get scientifically proofer results.
+
+Furthermore, the resulting technology from this project can be used to analyze different sets of developers, e.g. with different language combinations or with a completely different research question or to fuel completely different code repository mining projects.
 
 
+---
 ## Setup
-The technical requirements can be installed in a Python 3 environment with:
+The required python modules can be installed in a Python 3 environment with:
 ```
 pip install -r requirements.txt
 ```
