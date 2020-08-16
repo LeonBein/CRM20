@@ -14,6 +14,8 @@ The data from the data explorer is taken for the [RepoAnalysis](RepoAnalysis.ipy
 
 The resulting analysis data for each run is combined with the user data from the data explorer in the Results_Iteration notebooks [#1](Results_Iteration#1.ipynb), [#2](Results_Iteration#2.ipynb), and [#3](Results_Iteration#3.ipynb) respectively. These notebooks describe the evaluations of the analysis runs, with the first resulting in many insights on the methodolohy, the second showing the feasability of the realization of these insights. The third run then uses the now proven technology, scales up the input data, and evaluates a bit more in depth.
 
+The [UserAnalysis](UserAnalysis.ipynb) notebook is a small sideproject analyzing the intermediat experiment groups (especially the polyglots) from the data explorer.
+
 
 ## Resulting Artifacts
 Besides the Notebooks, further artifacts can be explored:
