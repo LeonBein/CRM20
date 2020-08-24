@@ -1,3 +1,5 @@
+//Disclaimer: The run of this log was used to reconstruct the lb_results2 table after it was lost
+
 ========= 2020-08-24 15:23:07.929602 ==========
 Time used for ('cheezy', 'Androidwebviewsampleapp', 3569025): 3.115375518798828
 
