@@ -26,7 +26,7 @@ Besides the Notebooks, further artifacts can be explored:
 Aggregation of user data in the [DataExplorer](DataExplorer.ipynb) mainly lead to the creation of the `lb_polyglots` and `lb_controlgroup` tables, which contain information on java developers that have been classified as (not) learning Python or Javascript as secondary language.<br>
 Note: All resulting tables are in schema named `crm20`.
 
-Analysis of selected repositories in the [RepoAnalysis](RepoAnalysis.ipynb) lead to three result sets that can be found in the tables `lb_results1`, `lb_results2`, and `lb_results3`, the evaluation of which can be found in the Results_Iteration notebooks [#1](Results_Iteration#1.ipynb), [#2](Results_Iteration#2.ipynb), and [#3](Results_Iteration#3.ipynb).
+Analysis of selected repositories in the [RepoAnalysis](RepoAnalysis.ipynb) lead to three result sets that can be found in the tables `lb_results1`, `lb_results2`, and `lb_results3`, the evaluation of which can be found in the Results_Iteration notebooks [#1](Results_Iteration%231.ipynb), [#2](Results_Iteration%232.ipynb), and [#3](Results_Iteration%233.ipynb).
 
 ## Project Results Summarized
 The project has shown the technical possibility to analyze developer influence on project code metrics fast. It includes useful technical artifacts to ease further projects in code repository mining. 
