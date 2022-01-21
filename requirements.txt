@@ -15,7 +15,7 @@ GitPython==3.1.2
 idna==2.9
 ipykernel==5.2.1
 ipyparallel==6.2.5
-ipython==7.14.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.17.0
 Jinja2==2.11.2
